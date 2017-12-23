@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body .container-fluid.cards {
+    background-color: #cccccc;
+}
+
+.container-fluid .row .panel.panel-default {
+    border-radius: 0;
+    padding: 5px;
+}
+
+.panel.panel-default:hover {
+    box-shadow: 5px 0 40px rgba(0,0,0, .2);
+}
+
+.panel.panel-default .panel-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel.panel-default .panel-header img {
+    width: 75px;
+    height: 75px;
+}
+
+.panel.panel-default .panel-body img {
+    width: 175px;
+    height: 175px;
+}
+
+.panel.panel-default p {
+    font-weight: bold;
+}
+
+.panel.panel-default span {
+    color: #999999;
+}
+
+.panel.panel-default i.fa-user-circle-o {
+    color: #999999;
+    margin-right: 5px;
+}
+
+.panel.panel-default i.fa-star {
+    color: orange;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.panel.panel-default .user-rate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel.panel-default i.fa-heart {
+    color: #999999;
+}
+
+.panel.panel-default .panel-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel.panel-default .panel-bottom p {
+    color: green;
+    font-size: 18px;
+}
+
+
